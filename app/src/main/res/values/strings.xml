@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewWeatherApp</string>
+    <string name="weatherDescription">Light rain</string>
+    <string name="wind">Moderate breeze</string>
+</resources>

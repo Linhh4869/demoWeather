@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView abc9;
     private TextView abc10;
     private TextView abc11;
-    ImageView IconWeather;
+    ImageView cloudy;
 
 
     @Override
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 /*        abc8 = findViewById(R.id.Pressure);
         abc8.setText("abc8");
 
-        abc9 = findViewById(R.id.Visiabc1 = findViewById(R.id.weather);
+        abc9 = findViewById(R.id.weather);
         abc1.setText("abc1");
 
         abc2 = findViewById(R.id.air);
@@ -58,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
         abc9.setText("abc9");
 
         abc10 = findViewById(R.id.DevPoint);
-        abc10.setText("abc10");   */
+        abc10.setText("abc10");
+
+        ImageView img= (ImageView) findViewById(R.id.iconWeather);
+        img.setImageResource(R.drawable.icon_weather);  */
     }
 }
